@@ -16,7 +16,7 @@ import java.util.List;
 public class MovieCrudRepository {
 
     private String getKey(){
-        return "b059d5a768cf815b3373a36a0d7355bf";
+        return "";
     }
     public List<MovieBean> getByPage(int page) {
 
