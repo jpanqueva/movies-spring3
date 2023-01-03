@@ -1,12 +1,26 @@
 
-# Proyecto Peliculas Java Spring
+# Proyecto Movies Spring
 
-Este proyecto expone en una API los servicios de películas de la API [The Movie DB](https://www.themoviedb.org/).
+Este proyecto expone en una API los servicios de películas de la API [The Movie Database (TMDb)](https://www.themoviedb.org/).
 
-La tecnología usada es Java Spring con [Swagger](https://swagger.io/) y [MapStructs](https://mapstruct.org/) para la gestión de dominio.
+## Tecnologías usadas
 
-La aplicación está publicada en [http://moviestext-env.eba-k7meuja3.us-west-2.elasticbeanstalk.com/peliculas/](http://moviestext-env.eba-k7meuja3.us-west-2.elasticbeanstalk.com/peliculas/). 
+- Java Spring
+- Swagger
+- MapStructs para la Gestión de Dominio.
 
-Tiene cuatro métodos que pueden ser consultados aquí: [http://moviestext-env.eba-k7meuja3.us-west-2.elasticbeanstalk.com/swagger-ui.html#/pelicula-controller](http://moviestext-env.eba-k7meuja3.us-west-2.elasticbeanstalk.com/swagger-ui.html#/pelicula-controller).
+## URL de la aplicación
+
+http://moviestext-env.eba-k7meuja3.us-west-2.elasticbeanstalk.com/peliculas/
+
+## Métodos expuestos
+
+http://moviestext-env.eba-k7meuja3.us-west-2.elasticbeanstalk.com/swagger-ui.html#/pelicula-controller
+
+## Despliegue
 
 El proyecto está publicado en AWS en el servicio Elastic Beanstalk.
+
+## Librerías
+
+Se hace uso de la librería com.uwetrottmann.tmdb2.
