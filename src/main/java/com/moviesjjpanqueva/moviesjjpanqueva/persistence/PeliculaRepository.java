@@ -26,8 +26,6 @@ public class PeliculaRepository implements PeliculasRepository {
     public List<Pelicula> getByPage(int page) {
 
         List<MovieBean> peliculas = movieCrudRepository.getByPage(page);
-        System.out.println("HERE");
-        System.out.println(peliculas.size());
         return mapper.toPelicula(peliculas);
     }
 

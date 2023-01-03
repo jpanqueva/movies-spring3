@@ -65,7 +65,6 @@ public class MovieCrudRepository {
                 auxMovie.setRuntime(movie.runtime);
 
                 movieBeen = auxMovie;
-                System.out.println(movie.title + " is consulta by id!");
             }
         } catch (Exception e) {
             e.printStackTrace();
